@@ -4,8 +4,22 @@
     <div class="timeline">
       <h1>Home</h1>
 
-      <Avatar :size="80" />
+      <br />
+      <br />
+      <br />
+      <br />
+
+       <Post />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
+
+
     <div class="sidebar">
       <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
         kullanılan mıgır metinlerdir. Lorem Ipsum, adı
@@ -26,10 +40,10 @@
 <script>
 
 
-import Avatar from '@/components/avatar'
+import Post from '@/components/Post'
 export default {
   name: "Home",
-  components: { Avatar }
+  components: { Post}
 };
 </script>
 
