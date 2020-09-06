@@ -3,94 +3,10 @@
 
     <div class="timeline">
       <h1>Home</h1>
-      <CustomText class="a1" tag="p">Merhaba kankam</CustomText>
-      <CustomText class="a2" tag="p" size="small">Merhaba kankam</CustomText>
-      <IconHome width="60" height="60" />
 
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-
+      <Avatar :size="80" />
     </div>
     <div class="sidebar">
-      <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
-        kullanılan mıgır metinlerdir. Lorem Ipsum, adı
-        bilinmeyen bir matbaacının bir hurufat numune
-        kitabı oluşturmak üzere bir yazı galerisini
-        alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
-        metinler olarak kullanılmıştır. Beşyüz yıl
-        pek değişmeden elektronik dizgiye de
-      </p>
-
       <p>Lorem Ipsum, dizgi ve baskı endüstrisinde
         kullanılan mıgır metinlerdir. Lorem Ipsum, adı
         bilinmeyen bir matbaacının bir hurufat numune
@@ -108,15 +24,12 @@
 </template>
 
 <script>
-import CustomText from '@/components/CustomText'
-import IconHome from '../../icons/home.svg'
 
+
+import Avatar from '@/components/avatar'
 export default {
   name: "Home",
-  components: {
-    CustomText,
-    IconHome
-  }
+  components: { Avatar }
 };
 </script>
 
